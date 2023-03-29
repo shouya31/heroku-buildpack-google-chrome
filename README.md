@@ -54,6 +54,11 @@ end
 Capybara.javascript_driver = :chrome
 ```
 
+## Configuring the downloaded version of Chrome Browser.
+A version must be provided in order for this buildpack to work.
+
+You can control the specific version by setting the CHROME_VERSION variable to an explicit version e.g. 2.39.
+
 ## Releasing a new version
 
 Make sure you publish this buildpack in the buildpack registry
