@@ -112,7 +112,6 @@ if [ -f $ENV_DIR/CHROME_VERSION ]; then
   chrome_version=$(cat $ENV_DIR/CHROME_VERSION)
 else
   error "CHROME_VERSION can not be empty"
-  ;;
 fi
 
 PACKAGES="$PACKAGES https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_$chrome_version-1_amd64.deb"
